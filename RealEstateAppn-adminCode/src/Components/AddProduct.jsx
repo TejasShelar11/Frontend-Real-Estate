@@ -112,12 +112,11 @@ const AddProduct = () => {
   };
   return (
     <>
-      <div className="row">
+      <div className="row" style={{ backgroundImage: "dinning.jpeg",zIndex:"-1",display:"flex",justifyItems:"center",alignItems:"center" , backgroundSize: 'cover', height: '100vh', width:"210.8vh"}}
+      >
         <div
-          className="container mt-5 col-4 px-4 py-3"
-          style={{ backgroundColor: "hsl(0, 0%, 96%)" }}
-        >
-          <form onSubmit={handleAdd}>
+          className="container mt-5 col-4 px-4 py-3">
+          <form style={{zIndex:"10",backgroundColor:"#49494970"}} onSubmit={handleAdd}>
             <h4>Add Product</h4>
 
             <div className="mb-3">

@@ -18,34 +18,34 @@ const Body = () => {
         <div className="container mt-5">
             <div className="row">
                 <div className="col-3">
-                        <Link to="#" className="links" onClick={() => renderContent("getAll")}>
+                        <Link to="#" className="links" style={{textAlign:'center', backgroundColor:"#dd9440", padding:"15px",border:"solid #dd9440", borderRadius:"10px"}} onClick={() => renderContent("getAll")}>
                         All Products & Updation & Deletion
                         </Link>
                 </div>
                 <div className="col-3">
-                    <Link to="#" className="links" onClick={() => renderContent("addProduct")}>
+                    <Link to="#" className="links" style={{textAlign:'center', backgroundColor:"#dd9440", padding:"15px",border:"solid #dd9440", borderRadius:"10px"}} onClick={() => renderContent("addProduct")}>
                         Add Product
                     </Link>
                 </div>
                 <div className="col-3">
-                    <Link to="#" className="links" onClick={() => renderContent("updateAdmin")}>
+                    <Link to="#" className="links" style={{textAlign:'center', backgroundColor:"#dd9440", padding:"15px",border:"solid #dd9440", borderRadius:"10px"}} onClick={() => renderContent("updateAdmin")}>
                         Update Admin
                     </Link>
                 </div>
                 <div className="col-3">
-                    <Link to="#" className="links" onClick={() => renderContent("deleteAdmin")}>
+                    <Link to="#" className="links" style={{textAlign:'center', backgroundColor:"#dd9440", padding:"15px",border:"solid #dd9440", borderRadius:"10px"}} onClick={() => renderContent("deleteAdmin")}>
                         Delete Admin
                     </Link>  
                 </div>
             </div>
-            <div className="row mt-3">
+            <div className="row mt-4">
             <div className="col-3">
-                    <Link to="#" className="links" onClick={() => renderContent("allUsers")}>
+                    <Link to="#" className="links" style={{textAlign:'center', backgroundColor:"#dd9440", padding:"15px",border:"solid #dd9440", borderRadius:"10px"}} onClick={() => renderContent("allUsers")}>
                          All Users
                     </Link> 
                 </div>
-                <div className="col-3">
-                    <Link to="#" className="links" onClick={() => renderContent("logout")}>
+                <div className="col-4">
+                    <Link to="#" className="links" style={{textAlign:'center', backgroundColor:"#dd9440", padding:"15px",border:"solid #dd9440", borderRadius:"10px"}} onClick={() => renderContent("logout")}>
                         Log Out
                     </Link> 
                 </div>
